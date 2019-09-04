@@ -1,0 +1,262 @@
+.block{
+    float:left;
+    width:100%;
+    padding:120px 0;
+    position:relative;
+}
+.block .container{
+    padding:0;
+}
+.container{
+    padding:0;
+}
+.block.remove-top{
+    padding-top:0;
+}
+.block.no-padding{
+    padding:0;
+}
+.block.remove-bottom{
+    padding-bottom:0;
+}
+.block.gray,.gray{
+    background-color:#f4f4f4;
+}
+
+.portfolio-mini-sec{
+    margin-top: -30px;
+    float: left;
+    width: 100%;
+}
+.portfolio-mini-sec .mini-portfolio {
+    margin-top: 30px;
+}
+.mini-portfolio {
+    float: left;
+    margin-top: 30px;
+    position: relative;
+    width: 100%;
+}
+.mini-portfolio > img {
+    float: left;
+    width: 100%;
+}
+.mini-portfolio::before {
+    background: #fff none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.mini-portfolio .portfolio-info {
+    left: 0;
+    padding: 0 40px;
+    position: absolute;
+    top: 50%;
+    
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+
+    opacity: 0;
+}
+.mini-portfolio .portfolio-info > h3 {
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 30px;
+}
+.mini-portfolio .portfolio-info > ul {
+    float: left;
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.mini-portfolio .portfolio-info > ul > li {
+    float: left;
+}
+.mini-portfolio .portfolio-info > ul > li > a {
+    background: #ffffff none repeat scroll 0 0;
+    color: #272727;
+    float: left;
+    height: 43px;
+    line-height: 43px;
+    text-align: center;
+    width: 43px;
+}
+.mini-portfolio .portfolio-info > ul > li:last-child > a {
+    color: #ffffff;
+    margin-left: -10px;
+}
+
+.mini-portfolio:hover::before {
+    opacity: 0.91;
+}
+.mini-portfolio:hover .portfolio-info {
+    opacity: 1;
+}
+
+/*=============== Pagination ===================*/
+.pagination {
+    float: left;
+    margin: 90px 0 0;
+    text-align: center;
+    width: 100%;
+}
+.pagination > li {
+    display: inline-block;
+    float: none;
+}
+.pagination > li:first-child a {
+    border: medium none;
+    color: #736d6d;
+    float: left;
+    font-family: Nunito;
+    font-size: 13px;
+    font-weight: 600;
+    margin-right: 40px;
+    margin-top: -53px;
+    padding: 0;
+    width: auto;
+}
+.pagination > li > a::before {
+    background: #ededed none repeat scroll 0 0;
+    
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+
+    content: "";
+    height: 7px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.pagination > li:last-child a {
+    border: medium none;
+    color: #736d6d;
+    float: left;
+    font-family: Nunito;
+    font-size: 13px;
+    font-weight: 600;
+    margin-left: 40px;
+    margin-top: -53px;
+    padding: 0;
+    width: auto;
+}
+.pagination > li:first-child a::before,
+.pagination > li:last-child a::before {
+    display: none;
+}
+.pagination > li > a {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0 !important;
+    border: medium none;
+    color: #323232;
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+    padding: 23px 0 0;
+    width: 17px;
+}
+.pagination > li.active > a {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: auto;
+}
+
+
+
+/*----order page -----*/
+.single-product-tabs {
+    float: left;
+    width: 100%;
+}
+.single-product-tabs > .tab-content {
+    float: left;
+    width: 100%;
+}
+.single-product-tabs > .tab-content img {
+    float: left;
+    width: 100%;
+}
+.single-product-tabs > .nav {
+    border: medium none;
+    float: left;
+    margin: 30px -15px 0;
+}
+.single-product-tabs > .nav > li {
+    float: left;
+    margin: 0;
+    padding: 0 15px;
+    width: 33.334%;
+}
+.single-product-tabs > .nav > li a {
+    border: medium none !important;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.single-product-infos {
+    float: left;
+    width: 100%;
+}
+.single-product-infos > h2 {
+    float: left;
+    margin-bottom: 14px;
+    margin-top: 50px;
+    width: 100%;
+}
+.single-product-infos span.price {
+    float: left;
+    font-family: Nunito;
+    font-size: 20px;
+    margin-bottom: 13px;
+    margin-top: 10px;
+    width: 100%;
+}
+.single-product-infos .rating {
+    float: left;
+    margin-bottom: 16px;
+    width: 100%;
+}
+.single-product-infos a.flat-btn {
+    background: #555555 none repeat scroll 0 0;
+    margin-right: 5px;
+    margin-top: 60px;
+}
+
+.flat-btn > i {
+    margin-right: 13px;
+}
+
+.flat-btn {
+    border: 1px solid transparent;
+    color: #fff;
+    float: left;
+    font-family: Nunito;
+    font-size: 15px;
+    font-weight: bold;
+	font-color:white;
+    padding: 13px 29px;
+    
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+
+}
+.flat-btn:hover{
+    background: none;
+}

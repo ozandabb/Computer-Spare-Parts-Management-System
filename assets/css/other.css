@@ -1,0 +1,55 @@
+
+input[type=text], input[type=password], select, textarea {
+    width: 600px;
+    padding: 12px 20px;
+    margin-left: 420px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}	
+
+.pname {
+	margin-top: 60px;
+}
+
+.ptype {
+	margin-top: 10px;
+	padding-bottom: 7px;
+}
+
+.ppackage {
+	margin-top: 15px;
+}
+
+.pquan, .pprice {
+	width: 250px;
+    padding: 12px 20px;
+    margin-left: 220px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.pquan {
+	margin-top: 15px;
+}
+
+.area {
+	margin-top: 15px;
+	height:150px;
+}
+
+
+.pprice {
+	margin-left: 96px;
+}
+
+
+input[type=file] {
+	margin-left: 220px;
+}
+
+add{
+	
+	
+}
